@@ -28,7 +28,7 @@ function Hero() {
           alt="Profile Picture of Me"
         />
         <img
-          className={styles.colourMode}
+          className={styles.colorMode}
           src={themeIcon}
           alt="Light mode icon"
           onClick={toggleTheme}
@@ -55,7 +55,20 @@ function Hero() {
             <img src={githubIcon} alt="Github icon"></img>
           </a>
         </span>
-        <p className="description">Hello mate i will fix this later</p>
+        <p className={styles.description}>
+          With a passion for developing mordern React web apps for commerical
+          businessesWith a passion for developing mordern React web apps for
+          commerical businessesWith a passion for developing mordern React web
+          apps for commerical businessesWith a passion for developing mordern
+          React web apps for commerical businessesWith a passion for developing
+          mordern React web apps for commerical businessesWith a passion for
+          developing mordern React web apps for commerical businessesWith a
+          passion for developing mordern React web apps for commerical
+          businessesWith a passion for developing mordern React web apps for
+          commerical businessesWith a passion for developing mordern React web
+          apps for commerical businessesWith a passion for developing mordern
+          React web apps for commerical businesses
+        </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
