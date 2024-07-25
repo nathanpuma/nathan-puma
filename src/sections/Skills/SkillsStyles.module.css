@@ -6,7 +6,7 @@
   span {
     display: flex;
     align-items: center;
-    gap: 10px; /* Adjusted the gap value */
+    gap: 10px;
   }
 
   img {

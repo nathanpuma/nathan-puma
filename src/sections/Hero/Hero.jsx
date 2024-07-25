@@ -56,18 +56,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing mordern React web apps for commerical
-          businessesWith a passion for developing mordern React web apps for
-          commerical businessesWith a passion for developing mordern React web
-          apps for commerical businessesWith a passion for developing mordern
-          React web apps for commerical businessesWith a passion for developing
-          mordern React web apps for commerical businessesWith a passion for
-          developing mordern React web apps for commerical businessesWith a
-          passion for developing mordern React web apps for commerical
-          businessesWith a passion for developing mordern React web apps for
-          commerical businessesWith a passion for developing mordern React web
-          apps for commerical businessesWith a passion for developing mordern
-          React web apps for commerical businesses
+          A computer science student at the University of Sydney who wants to
+          learn about modern programming technologies. I&apos;m not sure what I
+          want to specialize in as I am still early in my career, but I have
+          interest in full-stack development and machine learning.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

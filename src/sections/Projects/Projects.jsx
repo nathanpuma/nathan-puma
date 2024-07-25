@@ -1,7 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
 import ProjectCard from "../../common/ProjectCard";
 import sereneHaven from "../../assets/serene-haven.png";
+import frierenImage from "../../assets/frieren.png";
+import tank from "../../assets/tank.png";
 
 function Projects() {
   return (
@@ -14,24 +15,25 @@ function Projects() {
           websiteLink={"https://serene-haven.vercel.app"}
           h3={"Serene Haven"}
           p={
-            "A cabin renting website for people to discover the beautiful nature of woods and lakes located in the heart of Sweden. The project was built on React and Next.js, and finally deployed on Vercel."
+            "Serene Haven is a beautifully crafted web application that serves as a serene retreat booking platform, similar to Airbnb. Developed with React and Next.js, this site offers users a seamless experience in browsing and booking peaceful cabins and retreats. The clean and elegant design enhances user engagement, while the robust backend ensures smooth operation. Deployed on Vercel, Serene Haven delivers fast and reliable performance, making it the perfect destination for anyone seeking tranquility and relaxation."
           }
         />
         <ProjectCard
-          src={viberr}
+          src={tank}
           githubLink={"https://github.com/nathanpuma/TankWars"}
           demoLink={"https://www.youtube.com/watch?v=EXEc0Q45SMo"}
           h3={"2D Tank Wars"}
           p={
-            "A 2D array game where 4 players can fight it out on three different levels. Each level has a new environment, where the winner is crowned after the 3rd level. The game was made using Java, the processing library and Gradle."
+            "Tank Wars is 2D tank game developed using Java, the Processing library, and Gradle. The game is made up of 4 players each with their own unique tank. Each tank competes in turn-based combat, displaying health, fuel, and parachute status. With consistent tank colors and intricate mechanics for movement, collisions, and explosions, Tank Wars is a great game you can play with your friends. Developed as part of an OOP course, the game includes mathematical functions for projectiles and JUnit for testing."
           }
         />
         <ProjectCard
-          src={viberr}
-          link={"https://github.com/nathanpuma/serene-haven"}
-          h3={"Serene Haven"}
+          src={frierenImage}
+          githubLink={"https://github.com/nathanpuma/anime-treasury"}
+          websiteLink={"https://animetreasury.vercel.app/"}
+          h3={"Anime Treasury"}
           p={
-            "Cabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting websiteCabin renting website"
+            "Anime Treasury is a comprehensive web application designed to provide anime enthusiasts with a rich and engaging experience. Built using React and Next.js, this platform features a vast collection of anime series, number of episodes, and user reviews. The intuitive and visually appealing interface ensures seamless navigation, while the integration of Vercel for deployment guarantees fast and reliable performance."
           }
         />
       </div>
